@@ -6,8 +6,17 @@ dependencies:
   - bokeh
   - ipywidgets=6.0.0
   - tensorflow
+  - psutil
+  - nbserverproxy
+  - flask
+  - flask-cors
   - pip:
-    - ray[rllib]==0.6.0
+    - ray[rllib]==0.6.5
     - keras
     - modin
     - matplotlib
+    - bs4
+    - lxml
+    - scikit-learn
+    - setproctitle
+    - atoma
